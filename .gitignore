@@ -1,0 +1,52 @@
+#ignore target dir
+target*/
+
+#gradle files
+.gradle*/
+
+*.orig
+#
+# Eclipse project files
+#
+#.classpath
+#.project
+#.settings*/
+.springBeans
+.metadata/
+war*/
+
+#
+# IntelliJ IDEA project files
+#
+.idea*/
+.classes*/
+*.ipr
+*.iml
+*.iws
+*.ids
+atlassian-ide-plugin.xml
+
+#ignore NetBeans project files
+nb-configuration.xml
+profiles.xml
+catalog.xml
+nbactions.xml
+
+#ignore some temporary files
+*.vpp~*
+
+# os meta files
+Thumbs.db
+.DS_Store
+
+
+pom.xml.versionsBackup
+*.jasper
+
+#Sublime project files
+*.sublime-project
+*.sublime-workspace
+
+#project files
+/logs*/
+/earchive/logs*/
