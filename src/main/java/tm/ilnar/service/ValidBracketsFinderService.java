@@ -1,6 +1,7 @@
 package tm.ilnar.service;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Stack;
 
@@ -9,7 +10,7 @@ public class ValidBracketsFinderService {
   public static List<String> compute(String input) {
     List<String> result = new ArrayList<>();
     Stack<Integer> openingBrackets = new Stack<>();
-    Stack<Integer> invalidClosingBrackets = new Stack<>();
+    HashSet<Integer> invalidClosingBrackets = new HashSet<>();
 
     String[] inputArray = input.split("");
 
